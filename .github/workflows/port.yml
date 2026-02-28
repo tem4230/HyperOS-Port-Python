@@ -6,11 +6,11 @@ on:
       stock_url:
         description: 'Stock ROM Download Link'
         required: true
-        default: 'https://cdnorg.d.miui.com/OS3.0.5.0.WNLCNXM/duchamp-ota_full-OS3.0.5.0.WNLCNXM-user-16.0-4ec697213b.zip'
+        default: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.209.0.VNXCNXM/sheng-ota_full-OS2.0.209.0.VNXCNXM-user-15.0-2071eecc79.zip'
       port_url:
         description: 'Port ROM Download Link'
         required: true
-        default: 'https://cdnorg.d.miui.com/OS3.0.300.4.WONCNXM/dali-ota_full-OS3.0.300.4.WONCNXM-user-16.0-86f34cc79f.zip'
+        default: 'https://ultimateota.d.miui.com/OS3.0.3.0.VMHCNXM/yudi-ota_full-OS3.0.3.0.VMHCNXM-user-15.0-77a2cca9fc.zip?t=1772164340&s=c575b62f0f57a6293c787f5a3fd00d6f'
       pack_type:
         description: 'Output format (super/payload)'
         required: true
