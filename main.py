@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument("--work-dir", default="build", help="Working directory (default: build)")
     parser.add_argument("--clean", action="store_true", help="Clean working directory before starting")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging")
-    parser.add_argument("--pack-type", choices=["super", "payload"], default="payload", help="Output format: super (Super Image/Fastboot) or payload (OTA Payload/Recovery). Default: payload")
+    parser.add_argument("--pack-type", choices=["super", "payload"], default="super", help="Output format: super (Super Image/Fastboot) or payload (OTA Payload/Recovery). Default: super")
     return parser.parse_args()
 
 def clean_work_dir(work_dir: Path):
